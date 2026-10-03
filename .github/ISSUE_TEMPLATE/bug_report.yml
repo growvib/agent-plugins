@@ -1,0 +1,45 @@
+name: Bug report
+description: The plugin fails to install, a tool is missing, or the skill gives wrong guidance.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a problem with an order or a payment, contact support@growvib.com instead: this
+        repository cannot see orders. For a security issue, use the private reporting form in
+        SECURITY.md, never a public issue.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. claude plugin marketplace add GrowVib/agent-plugins
+        2. claude plugin install growvib@growvib
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: claude-version
+    attributes:
+      label: Claude Code version
+      description: Output of `claude --version`.
+    validations:
+      required: true
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      description: Shown by `claude plugin details growvib`.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Output or errors
+      description: Paste any error text or `claude mcp list` output. Remove any wallet addresses, tokens or links you do not want public.
+      render: shell
