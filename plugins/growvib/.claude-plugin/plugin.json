@@ -1,0 +1,14 @@
+{
+  "name": "growvib",
+  "displayName": "GrowVib",
+  "version": "0.1.0",
+  "description": "Find, price and buy social media growth (followers, members, views, likes) for Instagram, TikTok, YouTube, Telegram, X and more. Bundles GrowVib's public MCP endpoint: no account and no API key.",
+  "author": {
+    "name": "GrowVib",
+    "url": "https://growvib.com"
+  },
+  "homepage": "https://growvib.com/mcp",
+  "repository": "https://github.com/GrowVib/agent-plugins",
+  "license": "MIT",
+  "keywords": ["growvib", "social-media", "growth", "mcp", "x402", "checkout", "usdc"]
+}

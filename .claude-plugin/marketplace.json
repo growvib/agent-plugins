@@ -1,0 +1,17 @@
+{
+  "name": "growvib",
+  "description": "GrowVib plugins for AI agents: find, price and buy social media growth from Claude Code.",
+  "owner": {
+    "name": "GrowVib",
+    "url": "https://growvib.com"
+  },
+  "plugins": [
+    {
+      "name": "growvib",
+      "source": "./plugins/growvib",
+      "description": "Search the GrowVib catalog, get exact quotes, and buy social media growth with no account: hand the user a checkout link they pay in their own USDC wallet, or pay over x402.",
+      "category": "commerce",
+      "keywords": ["growvib", "social-media", "mcp", "x402", "checkout", "usdc"]
+    }
+  ]
+}

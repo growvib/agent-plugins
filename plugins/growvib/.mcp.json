@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "growvib": {
+      "type": "http",
+      "url": "https://api.growvib.com/mcp-public"
+    }
+  }
+}
