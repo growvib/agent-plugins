@@ -71,6 +71,7 @@ then run `/mcp`, choose `growvib-account` and authenticate.
 - Paying with USDC, checkout links and x402: https://growvib.com/x402
 - MCP server card: https://api.growvib.com/.well-known/mcp/server-card.json
 - Official MCP registry entry: `com.growvib/growvib`
+- What changed in each version: [CHANGELOG.md](CHANGELOG.md)
 
 ## License
 
